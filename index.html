@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- aos cdn link  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstarp cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- external css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="show-popup">
+<!-- header section  -->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+        <div class="main-logo">
+            <i class="fa-solid fa-bolt" id="thunder-logo"></i>
+            <div class="logo-text">
+            <strong>SOLAX</strong>
+            <p>World's Energy</p>
+            </div> 
+        </div> 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link " href="About_us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="Services.html">Services</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="Projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="News.html">News</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+        </ul>
+        <button class="login-btn">Login</button>
+        </div>
+    </div>
+  </nav> 
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" id="indi-1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" id="indi-2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" id="indi-3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" id="slider1">
+        <div class="slider-text">
+          <div class="sub-title">
+            <i class="fa-solid fa-solar-panel solar-icon"></i>
+            <span class="sub-title-text">WELCOME TO SOLAX</span>
+            <i class="fa-solid fa-solar-panel solar-icon"></i>
+          </div>
+          <h1 class="slider-heading">Take Your Building Or <span class="heading-line-2">Home Off The Grid By Solar</span></h1>
+        </div>
+      </div>
+      <div class="carousel-item" id="slider2">
+        <div class="slider-text">
+          <div class="sub-title">
+            <i class="fa-solid fa-solar-panel solar-icon"></i>
+            <span class="sub-title-text">WELCOME TO SOLAX</span>
+            <i class="fa-solid fa-solar-panel solar-icon"></i>
+          </div>
+          <h1 class="slider-heading">Take Your Building Or <span class="heading-line-2">Home Off The Grid By Solar</span></h1>
+        </div>
+      </div>
+      <div class="carousel-item" id="slider3">
+        <div class="slider-text">
+          <div class="sub-title">
+            <i class="fa-solid fa-solar-panel solar-icon"></i>
+            <span class="sub-title-text">WELCOME TO SOLAX</span>
+            <i class="fa-solid fa-solar-panel solar-icon"></i>
+          </div>
+          <h1 class="slider-heading">Take Your Building Or <span class="heading-line-2">Home Off The Grid By Solar</span></h1>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</header>
+
+<!-- pop-up form  -->
+<div class="blur-bg-overlay"></div>
+<div class="form-popup">
+    <span class="close-btn material-symbols-rounded">close</span>
+    <div class="form-box login">
+      <div class="form-details">
+          <h2>Welcome Back</h2>
+          <p>Please log in using your personal information to stay connected with us.</p>
+      </div>
+      <div class="form-content">
+          <h2>LOGIN</h2>
+          <form action="./submit.php" onsubmit="return validate_1()">
+              <div class="input-field">
+                  <input type="text" id="email">
+                  <p id="error_1" class="error-message"></p>
+                  <label>Email</label>
+              </div>
+              <div class="input-field">
+                  <input type="password" id="password">
+                  <p id="error_2" class="error-message"></p>
+                  <label>Password</label>
+              </div>
+              <a href="#" class="forgot-pass-link">Forgot password?</a>
+              <button type="submit">Log In</button>
+          </form>
+          <div class="bottom-link">
+              Don't have an account?
+              <a href="#" id="signup-link">Signup</a>
+          </div>
+      </div>
+  </div>
+  <div class="form-box signup">
+      <div class="form-details">
+          <h2>Create Account</h2>
+          <p>To become a part of our community, please sign up using your personal information.</p>
+      </div>
+      <div class="form-content">
+          <h2>SIGNUP</h2>
+          <form action="./submit.php" onsubmit="return validate_2()">
+            <div class="input-field">
+              <input type="text" id="email_2">
+              <p id="error_3" class="error-message"></p>
+              <label>Enter your email</label>
+            </div>
+            <div class="input-field">
+              <input type="password" id="password_2"> 
+              <p id="error_4" class="error-message"></p>
+              <label>Create password</label>
+            </div>
+            <div class="policy-text">
+              <input type="checkbox" id="policy">
+              <label for="policy">
+                I agree to the
+                <a href="#" class="option">Terms & Conditions</a>
+              </label>
+            </div>
+            <button type="submit">Sign Up</button>
+          </form>
+          
+          <div class="bottom-link">
+              Already have an account? 
+              <a href="#" id="login-link">Login</a>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- section 1 -->
+<section>
+  <div class="container">
+    <div class="row sec-1">
+      <div class="col img-col" data-aos="fade-up" data-aos-duration="3000">
+        <div class="image-box">
+            <img class="sec-1-img-1" src="./images/featured-image-1.jpg" alt="">
+            <img class="sec-1-img-2" src="./images/featured-image-2.jpg" alt="">
+        </div>
+      </div>
+      <div class="col text-col" data-aos="fade-up" data-aos-duration="3000">
+        <div class="text-box">
+          <div class="upper-text">
+            <h6>WHO ARE SOLAX</h6>
+            <i class="fa-solid fa-bolt" id="thunder-logo-1"></i>
+          </div>
+          <h2 class="text-box-line1">Integrated Solar Solutions</h2>
+          <h6 class="text-box-line2">For Controling Your Energy Production</h6>
+          <div class="bottom-dots">
+            <div class="line-dot"></div>
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+            <div class="dot3"></div>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ad modi maiores quod molestiae animi reiciendis perspiciatis, ducimus voluptates pariatur minus cum quisquam quidem ea repellat. Hic molestiae voluptas officia.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quidem, obcaecati aspernatur ex quas voluptatum amet quod repudiandae, laudantium illo dolorem quos exercitationem fuga ullam aliquam corporis molestias suscipit dolore!
+          </p>
+          <div class="featured-list">
+            <ul class="icon-list">
+              <li>
+                <div class="icon">
+                  <i class="fa-solid fa-plug feature-icon"></i>
+                </div>
+                <div class="title">
+                  <h6>Save energy <br>
+                  for world</h6>
+                </div>
+              </li>
+              <li>
+                <div class="icon">
+                  <i class="fa-solid fa-solar-panel feature-icon"></i>
+                </div>
+                <div class="title">
+                  <h6>RESIDENTIALS <br>
+                    SOLUTIONS</h6>
+                </div>
+              </li>
+              <li>
+                <div class="icon">
+                  <i class="fa-solid fa-tree feature-icon"></i>
+                </div>
+                <div class="title">
+                  <h6>GET ENERGY <br>
+                    FORESTS</h6>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+  
+
+<!-- section 2 -->
+ <section class="section-2">
+  <div class="container-fluid">
+    <div class="sec-2">
+      <div class="sec-2-img-section">
+        <img class="sec-2-img" src="./images/sec-2-img.webp" alt="">
+      </div>
+      <div class="sec-2-text-section" data-aos="fade-up" data-aos-duration="3000">
+        <div class="sec-2-heading">
+            <h6 class="sec-2-heading-1">OUR BENEFITS</h6>
+            <h2 class="sec-2-heading-2">4 Reasons to Choose Us</h2>
+            <p class="sec-2-para">We are redefines your relationship with energy. Save money. Minimize your carbon footprint. Take control of your costs today!</p>
+        </div>
+        <div class="sec-2-desc">
+          <div class="row sec-2-row-1">
+            <div class="col benefits-desc">
+                <h4>We've Got Your Back</h4>
+                <p>We're with you every step of the way, from the initial plans to the permits and paperwork</p>
+            </div>
+            <div class="col benefits-desc">
+              <h4>Save Your Money</h4>
+              <p>Save 10-30%* on your utility bill, we will help you with this. Gloating is optional
+              </p>
+            </div>
+          </div>
+          <div class="row sec-2-row-2">
+            <div class="col benefits-desc">
+              <h4>25 Year Warranty</h4>
+              <p>You read correctly. When millenials are entering mid-life crises, your solar panels will still be covered</p>
+            </div>
+            <div class="col benefits-desc">
+              <h4>Installation Included</h4>
+              <p>Just in case you're not a licensed electrician with your own installation crew</p>
+            </div>
+          </div>    
+        </div>     
+  </div>
+</section> 
+
+
+<!-- section 3 -->
+<section>
+  <div class="container">
+    <div class="sec-3">
+      <div class="sec-3-text" data-aos="fade-up" data-aos-duration="3000">
+        <h6>WHAT WE DO</h6>
+        <h2>Our Services</h2>
+      </div>
+      <div class="sec-3-content">
+        <div class="card" data-aos="fade-up" data-aos-duration="3000">
+          <img src="./images/sec-3-img-1.jpg" alt="">
+          <div class="card-body">
+            <img class="sec-3-icon" src="./images/icon-1.png" alt="">
+            <h5 class="card-title">Solar Technology</h5>
+            <div class="sec-3-underline"></div>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pul leo.</p>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-duration="3000">
+          <img src="./images/sec-3-img-2.jpg" alt="">
+          <div class="card-body">
+            <img class="sec-3-icon" src="./images/icon-2.png" alt="">
+            <h5 class="card-title">Solar Installation</h5>
+            <div class="sec-3-underline"></div>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pul leo.</p>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-duration="3000">
+          <img src="./images/sec-3-img-3.jpg" alt="">
+          <div class="card-body">
+            <img class="sec-3-icon" src="./images/icon-3.png" alt="">
+            <h5 class="card-title">Solar Equipment</h5>
+            <div class="sec-3-underline"></div>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pul leo.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+</section> 
+
+
+<!-- section 4 -->
+ <section>
+  <div class="container">
+    <div class="sec-4">
+      <div class="sec-4-text" data-aos="fade-up" data-aos-duration="3000">
+        <h6>HOW IT WORKS</h6>
+        <h2>Easy step</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+      </div>
+      <div class="sec-4-card-section">
+        <div class="sec-4-slides">
+          <div class="slide-col-1" data-aos="fade-up" data-aos-duration="3000">
+            <div class="sec-4-card">
+              <span class="card-number">1</span>
+              <h6>Take a survey location</h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+          </div>
+          <div class="slide-col-2" data-aos="fade-up" data-aos-duration="3000">
+            <div class="sec-4-card">
+              <span class="card-number">2</span>
+              <h6>Estimate your budget cost</h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+          </div>
+          <div class="slide-col-3" data-aos="fade-up" data-aos-duration="3000">
+            <div class="sec-4-card">
+              <span class="card-number">3</span>
+              <h6>Develope your project</h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+          </div>
+          <div class="slide-col-4" data-aos="fade-up" data-aos-duration="3000">
+            <div class="sec-4-card">
+              <span class="card-number">4</span>
+              <h6>Lauch prototype project</h6>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- section 5 -->
+<section>
+  <div class="container">
+    <div class="sec-5">
+      <div class="sec-5-heading" data-aos="fade-up" data-aos-duration="3000">
+        <h6 class="sec-5-heading-1">Our Projects</h6>
+        <div class="underline"></div>
+        <h2 class="sec-5-heading-2">Latest Projects, Solutions & Energy Supplies</h2>
+      </div>
+      <div class="sec-5-content">
+          <div class="project-col">
+            <div class="project-card" data-aos="fade-up" data-aos-duration="3000">
+              <img src="./images/project-img1.jpg" alt="">
+              <div class="project-infobox">
+                  <span>Solar Panel</span>
+                  <div class="project-link">
+                    <a href="Project_about.html" class="project-about-page">Tile & Metal Roof Installations</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        <div class="project-col">
+            <div class="project-card" data-aos="fade-up" data-aos-duration="3000">
+              <img src="./images/project-img2.jpg" alt="">
+              <div class="project-infobox">
+                  <span>Solar Panel</span>
+                  <div class="project-link">
+                    <a href="Project_about.html" class="project-about-page">Energy Performance Calculation</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        <div class="project-col">
+          <div class="project-card" data-aos="fade-up" data-aos-duration="3000">
+            <img src="./images/project-img3.jpg" alt="">
+            <div class="project-infobox">
+                <span>Solar Panel</span>
+                <div class="project-link">
+                  <a href="Project_about.html" class="project-about-page">Renewable Energy Integration</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+
+
+<!-- section 6 -->
+<section>
+  <div class="container">
+      <div class="sec-6">
+          <div class="sec-6-heading" data-aos="fade-up" data-aos-duration="3000">
+            <div class="sec-6-heading-text">
+              <h6>INSIGHT</h6>
+              <h3>Latest news & article</h3>
+            </div>
+            <div class="sec-6-heading-button">
+              <button class="sec-6-view-more">View more</button>
+            </div>
+          </div>
+          <div class="sec-6-content">
+            <div class="sec-6-article" data-aos="fade-up" data-aos-duration="3000">
+              <img class="article_img" src="./images/article_1_img.jpg" alt="">
+              <div class="article-text">
+                  <h3>24 Years of Renewable Energy, 24 Hours of Sustainability</h3>
+                  <div class="post-details">
+                    <span>October 8, 2021</span>
+                    <span class="article-comment">No Comments</span>
+                  </div>
+                  <p class="article-content">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                  </p>
+              </div>
+            </div>
+            <div class="sec-6-article" data-aos="fade-up" data-aos-duration="3000">
+              <img class="article_img" src="./images/article_2_img.jpg" alt="">
+              <div class="article-text">
+                  <h3>Why Choose a Renewable Energy Plan?</h3>
+                  <div class="post-details">
+                    <span>October 8, 2021</span>
+                    <span class="article-comment">No Comments</span>
+                  </div>
+                  <p class="article-content">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                  </p>
+              </div>
+            </div>
+            <div class="sec-6-article" data-aos="fade-up" data-aos-duration="3000">
+              <img class="article_img" src="./images/article_3_img.jpg" alt="">
+              <div class="article-text">
+                  <h3>Get Closer to Carbon Neutral with Carbon Offsets</h3>
+                  <div class="post-details">
+                    <span>October 8, 2021</span>
+                    <span class="article-comment">No Comments</span>
+                  </div>
+                  <p class="article-content">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                  </p>
+              </div>
+            </div>
+            <div class="sec-6-article" data-aos="fade-up" data-aos-duration="3000">
+              <img class="article_img" src="./images/article_4_img.jpg" alt="">
+              <div class="article-text">
+                  <h3>5 Sustainable Activities for the Whole Family</h3>
+                  <div class="post-details">
+                    <span>October 8, 2021</span>
+                    <span class="article-comment">No Comments</span>
+                  </div>
+                  <p class="article-content">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                  </p>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+</section> 
+
+ <!-- section 7 -->
+ <section>
+  <div class="container">
+    <div class="sec-7">
+      <div class="sec-7-contact-box" data-aos="fade-up" data-aos-duration="3000">
+        <h6>Get in touch</h6>
+        <h2>Contact our sales</h2>
+        <div class="underline-1"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+        <h4 class="contact-email">sales@yourdomain.tld</h4>
+        <h4 class="contact-number">+888-2002-234</h4>
+        <button class="chat-button"><i class="fa-regular fa-comment"></i><span class="chat-support">chat support</span></button>
+      </div>
+      <div class="sec-7-appoiment-form" data-aos="fade-up" data-aos-duration="3000">
+        <h6>APPOINTMENT</h6>
+        <h2>Let's start your project</h2>
+        <form action="./submit.php" class="demo_form" onsubmit="return validate()">
+            <div class="row">
+              <div class="mb-3 col-md-6">
+                <label for="exampleInputEmail1" class="form-label">Name</label>
+                <input type="text" class="form-control" id="Name" placeholder="Name" aria-describedby="emailHelp">
+                <p id="error1"></p>
+              </div>
+              <div class="mb-3 col-md-6">
+                <label for="exampleInputPassword1" class="form-label">Company</label>
+                <input type="text" class="form-control" id="Co_name" placeholder="Company">
+                <p id="error2"></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="mb-3 col-md-6">
+                <label for="exampleInputPassword1" class="form-label">Phone</label>
+                <input type="number" class="form-control" id="phone_no" placeholder="Phone">
+                <p id="error3"></p>
+              </div>
+              <div class="mb-3 col-md-6">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email_id" aria-describedby="emailHelp" placeholder="Email">
+                <p id="error4"></p>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Address</label>
+              <textarea class="form-control" id="Address" rows="3"></textarea>
+              <p id="error5"></p>
+            </div>
+            <button type="submit" class="btn btn-primary" id="sec-7-sumbit-button">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section> 
+
+<!-- section 8 -->
+<section>
+  <div class="container">
+    <div class="sec-8">
+      <div class="sec-8-1" data-aos="fade-up" data-aos-duration="3000">
+        <h6>TESTIMONIAL</h6>
+        <h2>What they says about us</h2>
+      </div>
+      <div class="sec-8-2"> 
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="cutomer-testimonial">
+                    <div class="testimonial__content">
+                      "Imperdiet pretium ex vel metus maximus vivamus accumsan. Aenean dignissim sollicitudin amet maximus praesent ullamcorper mauris cras."			
+                    </div>
+                    <div class="testimonial__footer">
+                        <div class="testimonial__image">
+                            <img src="./images/customer-1.jpg" alt="">
+                        </div>
+                        <div class="testimonial__cite">
+                          <div class="testimonial__name">William Hunter</div>
+                          <div class="testimonial__title">Founder Brilliant.co</div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              <div class="swiper-slide">
+                <div class="cutomer-testimonial">
+                  <div class="testimonial__content">
+                    "Imperdiet pretium ex vel metus maximus vivamus accumsan. Aenean dignissim sollicitudin amet maximus praesent ullamcorper mauris cras."			
+                  </div>
+                  <div class="testimonial__footer">
+                      <div class="testimonial__image">
+                        <img src="./images/customer-2.jpg" alt="">
+                      </div>
+                      <div class="testimonial__cite">
+                        <div class="testimonial__name">Ben Andrews</div>
+                        <div class="testimonial__title">CEO Makko</div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cutomer-testimonial">
+                  <div class="testimonial__content">
+                    "Imperdiet pretium ex vel metus maximus vivamus accumsan. Aenean dignissim sollicitudin amet maximus praesent ullamcorper mauris cras."				
+                  </div>
+                  <div class="testimonial__footer">
+                      <div class="testimonial__image">
+                        <img src="./images/customer-3.jpg" alt="">
+                      </div>
+                      <div class="testimonial__cite">
+                        <div class="testimonial__name">Katie Stevens</div>
+                        <div class="testimonial__title">Manager MIA</div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- footer section  -->
+<footer>
+  <div class="footer-section">
+    <div class="container">
+      <div class="footer-div">
+        <div class="footer-div-sec-1">
+          <div class="text-widget">
+            <div class="main-logo-1">
+              <i class="fa-solid fa-bolt" id="thunder-logo-2"></i>
+              <div class="logo-text-1">
+                <strong>SOLAX</strong>
+                <p>World's Energy</p>
+              </div> 
+            </div> 
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.</p>
+          </div>
+          <div class="comapny-phone">
+            +888-2002-234
+          </div>
+          <div class="company-email">
+            sales@yourdomain.tld
+          </div>
+          <div class="comapny-address">
+            201 Stokes Isle Apt. 896,
+            New York 10010, United States
+          </div>
+        </div>
+        <div class="footer-div-sec-2">
+            <div class="footer-div-sec-2-heading">COMPANY</div>
+            <ul class="footer-pages-link">
+              <li><a href="About_us.html">About Us</a></li>
+              <li><a href="Services.html">Services</a></li>
+              <li><a href="News.html">Press & Blog</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Faq</a></li>
+            </ul>
+        </div>
+        <div class="footer-div-sec-3">
+            <h2 class="footer-div-sec-3-heading">LATEST POST</h2>
+            <ul class="recent-posts">
+              <li>
+                <div class="post-box">
+                  <img src="./images/footer-img-01.jpg" class="post-img" alt="">
+                  <div class="post-content">
+                    <div class="post-title">
+                      <h6>Growth of Clean Energy Part of Solution, Not a Problem</h6>
+                    </div>
+                    <div class="post-date">
+                      June 9, 2024
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="post-box">
+                  <img src="./images/footer-img-02.jpg" class="post-img" alt="">
+                  <div class="post-content">
+                    <div class="post-title">
+                      <h6>Metal Roofing: The Best for Solar Panels</h6>
+                    </div>
+                    <div class="post-date">
+                      January 23, 2024
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+        </div>
+        <div class="footer-div-sec-4">
+            <div class="footer-div-sec-4-heading">OUR NEWSLETTER</div>
+            <p>Get in your inbox the latest News and Offers from Greenly</p>
+            <form action="">
+              <input type="email" name="email" class="footer-email" placeholder="Your email address" required>
+              <button class="subscribe-btn" type="submit">Subscribe</button>
+            </form>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="footer-bottom">
+        <div class="footer-bottom-text text-center">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="footer-copyright-text-area">
+                  Copyright © 2024 <a href="index.html">SOLAX</a> All Rights Reserved.
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer> 
+
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
+
+<!-- aos script  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+<!-- bootstrap js link  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- external script  -->
+<script src="script.js"></script>
+</body>
+</html>
