@@ -34,6 +34,10 @@ body{
     background-color: aliceblue;
 }
 
+.logo-text p{
+    margin: 0;
+}
+
 .main-logo{
     display: flex;
 }
@@ -123,7 +127,10 @@ body{
 	}
     .navbar{
         width: 100%;
-        padding: 0;
+        padding: 10px 0;
+    }
+    .logo-text p{
+        margin: 0;
     }
     #navbarSupportedContent{
         margin: 0;
@@ -134,7 +141,7 @@ body{
     }
     .navbar-toggler{
         position:absolute;
-        top: 30px;
+        top: 25px;
         right: 30px;
     }
     .banner-text-line-1{
@@ -156,7 +163,10 @@ body{
 	}
     .navbar{
         width: 100%;
-        padding: 0;
+        padding: 10px 0;
+    }
+    .logo-text p{
+        margin: 0;
     }
     #navbarSupportedContent{
         margin: 0;
@@ -167,7 +177,7 @@ body{
     }
     .navbar-toggler{
         position:absolute;
-        top: 30px;
+        top: 25px;
         right: 30px;
     }
     .banner-text-line-1{
@@ -189,7 +199,10 @@ body{
 	}
     .navbar{
         width: 100%;
-        padding: 0;
+        padding: 10px 0;
+    }
+    .logo-text p{
+        margin: 0;
     }
     #navbarSupportedContent{
         margin: 0;
@@ -200,7 +213,7 @@ body{
     }
     .navbar-toggler{
         position:absolute;
-        top: 30px;
+        top: 25px;
         right: 30px;
     }
     .banner-text-line-1{
@@ -222,6 +235,7 @@ body{
 	}
     .navbar{
         width: 100%;
+        padding: 10px 0;
     }
     #navbarSupportedContent{
         margin-left: 20px;
@@ -229,9 +243,6 @@ body{
     .sub-title-text{
         font-size: 20px;
     }
-   .navbar{
-      padding: 0 10px;
-   } 
    .nav-item{
       padding: 0 10px ;
    }

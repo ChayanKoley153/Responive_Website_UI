@@ -32,6 +32,10 @@ body{
     background-color: aliceblue;
 }
 
+.logo-text p{
+    margin: 0;
+}
+
 .main-logo{
     display: flex;
 }
@@ -130,9 +134,7 @@ body{
     color: white;   
 }
 
-.logo-text p{
-    margin: 0;
-}
+
 
 
 /*********************************header section responsive************************************/
@@ -174,7 +176,7 @@ body{
    }
    .navbar-toggler{
      position:absolute;
-     top: 20px;
+     top: 30px;
      right: 20px;
    }
    .login-btn{
@@ -268,6 +270,7 @@ body{
 	}
     .navbar{
         width: 100%;
+        padding: 10px 0;
     }
     #navbarSupportedContent{
         margin-left: 20px;
@@ -288,9 +291,6 @@ body{
    .slider-text{
        height: 500px;
    }
-   .navbar{
-      padding: 0 10px;
-   } 
    .nav-item{
     padding: 0 10px ;
    }
@@ -1151,7 +1151,7 @@ form button:hover {
 
 .sec-3-text h6{
     font-size: 14px;
-    color: #AEAEAE;
+    color: #0FCC7C;
 }
 
 .sec-3-text h2{
@@ -1382,7 +1382,7 @@ form button:hover {
 .sec-4-text h6{ 
     font-size: 14px;
     font-family: "Titillium Web", sans-serif;
-    color: #AEAEAE;
+    color: #0FCC7C;
     margin-bottom: 20px;
 }
 

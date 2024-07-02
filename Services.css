@@ -26,11 +26,14 @@ body{
 
 
 /******************************header section************************************/
-
 /* main-nav  */
 .navbar{
     padding: 10px 50px;
     background-color: aliceblue;
+}
+
+.logo-text p{
+    margin: 0;
 }
 
 .main-logo{
@@ -122,7 +125,10 @@ body{
 	}
     .navbar{
         width: 100%;
-        padding: 0;
+        padding: 10px 0;
+    }
+    .logo-text p{
+        margin: 0;
     }
     #navbarSupportedContent{
         margin: 0;
@@ -133,8 +139,8 @@ body{
     }
     .navbar-toggler{
         position:absolute;
-        top: 30px;
-        right: 30px;
+        top: 25px;
+        right: 20px;
     }
     .banner-text-line-1{
         font-size: 30px;
@@ -155,7 +161,10 @@ body{
 	}
     .navbar{
         width: 100%;
-        padding: 0;
+        padding: 10px 0;
+    }
+    .logo-text p{
+        margin: 0;
     }
     #navbarSupportedContent{
         margin: 0;
@@ -166,7 +175,7 @@ body{
     }
     .navbar-toggler{
         position:absolute;
-        top: 30px;
+        top: 25px;
         right: 30px;
     }
     .banner-text-line-1{
@@ -188,7 +197,10 @@ body{
 	}
     .navbar{
         width: 100%;
-        padding: 0;
+        padding: 10px 0;
+    }
+    .logo-text p{
+        margin: 0;
     }
     #navbarSupportedContent{
         margin: 0;
@@ -199,7 +211,7 @@ body{
     }
     .navbar-toggler{
         position:absolute;
-        top: 30px;
+        top: 25px;
         right: 30px;
     }
     .banner-text-line-1{
@@ -229,7 +241,7 @@ body{
         font-size: 20px;
     }
    .navbar{
-      padding: 0 10px;
+      padding: 10px;
    } 
    .nav-item{
       padding: 0 10px ;
