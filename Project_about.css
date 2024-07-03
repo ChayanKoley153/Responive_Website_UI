@@ -110,7 +110,10 @@ body{
     }
     .navbar{
         width: 100%;
-        padding: 0;
+        padding: 10px 0;
+    }
+    .logo-text p{
+        margin: 0;
     }
     #navbarSupportedContent{
         margin: 0;
@@ -118,6 +121,11 @@ body{
     }
     .navbar-nav{
         text-align: center;
+    }
+    .navbar-toggler{
+        position:absolute;
+        top: 25px;
+        right: 20px;
     }
     .Get-in-touch{
         width: 150px;
@@ -155,7 +163,10 @@ body{
     }
     .navbar{
         width: 100%;
-        padding: 0;
+        padding: 10px 0;
+    }
+    .logo-text p{
+        margin: 0;
     }
     #navbarSupportedContent{
         margin: 0;
@@ -163,6 +174,11 @@ body{
     }
     .navbar-nav{
         text-align: center;
+    }
+    .navbar-toggler{
+        position:absolute;
+        top: 25px;
+        right: 30px;
     }
     .Get-in-touch{
         width: 150px;
@@ -200,7 +216,10 @@ body{
     }
     .navbar{
         width: 100%;
-        padding: 0;
+        padding: 15px 0;
+    }
+    .logo-text p{
+        margin: 0;
     }
     #navbarSupportedContent{
         margin: 0;
@@ -208,6 +227,11 @@ body{
     }
     .navbar-nav{
         text-align: center;
+    }
+    .navbar-toggler{
+        position:absolute;
+        top: 30px;
+        right: 30px;
     }
     .Get-in-touch{
         width: 150px;
@@ -242,6 +266,7 @@ body{
 	}
     .navbar{
         width: 100%;
+        padding: 10px 0;
     }
     #navbarSupportedContent{
         margin-left: 20px;
@@ -250,7 +275,7 @@ body{
        padding: 0 10px ;
    }
    .logo-text p{
-     margin: 0;
+      margin: 0;
    }
   .login-btn{
         font-size: 14px;
@@ -282,7 +307,9 @@ body{
     #navbarSupportedContent{
         margin-left: 50px;
     }
-   
+    .logo-text p{
+        margin: 0;
+    }
 }
 
 
